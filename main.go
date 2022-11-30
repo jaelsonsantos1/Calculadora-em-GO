@@ -12,12 +12,12 @@ func main() {
 	}
 	
 	fmt.Print("Digite o primeiro valor: ")
-	fmt.Scanf(num_1)
+	fmt.Scanf(&num_1)
 	fmt.Print("Digite o Segundo valor: ")
-	fmt.Scanf(num_2)
+	fmt.Scanf(&num_2)
 
 	fmt.Print("Escolha uma opção dentre [1] - Somar, [2] - Subtrair, [3] - Multiplicar ou [4] - dividir\n > ")
-	fmt.Scanf(opcaoEscolha)
+	fmt.Scanf(&opcaoEscolha)
 
 	switch opcaoEscolha {
 	case 1:
