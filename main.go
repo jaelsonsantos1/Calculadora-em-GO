@@ -28,7 +28,7 @@ func main() {
 		fmt.Printf("%d*%d=%d", num_1, num_2, funcoesCalculadora.Multiplicar(num_1, num_2))
 	case 4:
 		fmt.Printf("%d/%d=%d", num_1, num_2, funcoesCalculadora.Dividir(num_1, num_2))
-	case default:
+	default:
 		fmt.Print("Opção inválida!")
 	}
 }
